@@ -15,7 +15,7 @@ renderTodoList();
 document.getElementById('add').addEventListener('click', function() {
   var value = document.getElementById('item').value;
   if (value) {
-    addItem(value);
+    addItem(value); /////add to database
   }
 });
 
